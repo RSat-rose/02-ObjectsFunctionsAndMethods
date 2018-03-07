@@ -1985,6 +1985,7 @@ class SimpleTurtle(object):
         sally.forward(100)
 
         sally.end_fill()
+        :rtype: object
 
         """
         self._update_real_turtle()
